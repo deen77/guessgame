@@ -1,6 +1,6 @@
 # The Greatest Guess Game Ever!!
 
-This is the Greatest Guess Game Ever is this centuary. 
+This is the Greatest Guess Game Ever is this century. 
 
 # How to Play:
 
