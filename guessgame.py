@@ -30,16 +30,16 @@ while tries < 10:
             print('Your number is bigger. %s' % random.choice(goodluck_wish))
 
     tries += 1
-<<<<<<< HEAD
+
     print("You have %d try left." % (10-tries))
 
 if win == 0:
     print('Game over!!')
-    print('The lucky number is %d'%num) 
-=======
+    print('The lucky number is %d.'%num) 
+
 
     print('You have %d try left.' % (10 - tries))
 
 if win == 0:
     print('Game over!!')
->>>>>>> 3ea771261e95c24188d57ffe12747b64dd07c672
+
