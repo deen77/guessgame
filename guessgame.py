@@ -28,3 +28,4 @@ while tries < 10:
             print('Your number is bigger. Please try again!')
 
     tries += 1
+    print("You have %d try left." % (10-tries))
