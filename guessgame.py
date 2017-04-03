@@ -7,7 +7,7 @@ guess_wish = ["Let's guess a number: ", "Give me your number: ", "What's your lu
 goodluck_wish = ["Dont give up.", "It's cold.", "It's near.", "Come on you can do it.", "Please try harder!!", "Do you have brain?", "Almost dude."]
 lie = ["no", "no", "yes", "no"]
 num = random.randrange(1,100)
-print num
+#print num
 tries=0
 win=0
 tries_remaining=10
@@ -30,8 +30,16 @@ while tries < 10:
             print('Your number is bigger. %s' % random.choice(goodluck_wish))
 
     tries += 1
+<<<<<<< HEAD
+    print("You have %d try left." % (10-tries))
+
+if win == 0:
+    print('Game over!!')
+    print('The lucky number is %d'%num) 
+=======
 
     print('You have %d try left.' % (10 - tries))
 
 if win == 0:
     print('Game over!!')
+>>>>>>> 3ea771261e95c24188d57ffe12747b64dd07c672
